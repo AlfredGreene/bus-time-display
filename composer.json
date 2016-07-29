@@ -1,0 +1,13 @@
+{
+  "require": {
+    "symfony/console": "~3.0",
+    "symfony/serializer": "~3.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "mtdowling/cron-expression": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Buses\\": "src/"
+    }
+  }
+}
