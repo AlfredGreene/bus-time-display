@@ -3,7 +3,7 @@
 This is designed as an eternally running process for display on something like a Raspberry Pi hooked to a screen.
 This will output the time to the next bus for a given stop ID.
 
-![Bus Time Display](http://prnt.sc/bz6fvr)
+![Bus Time Display](http://image.prntscr.com/image/80e059ca8dd24429a098f326f08c4691.png)
 
 **NOTE**
 Requires [figlet](http://www.figlet.org/) to be installed with the [univers font](http://www.figlet.org/fontdb_example.cgi?font=univers.flf) to use the bus time display.
@@ -16,7 +16,7 @@ composer install
 ```
 then run the app with
 ```
-php app.php buses:service:next_bus --stop=7080`
+php app.php buses:service:next_bus --stop=7080
 ```
 from the command line to get the next bus for *Churchill Square (Stop G)*
 
